@@ -2,7 +2,7 @@
 
 # Carry out static testing on the code below.
 # Comment on any errors that you see below.
-# There are ~~6~~ 13 errors in total. 
+# There are ~~6~~ 14 errors in total. 
 
 ```python
 
@@ -37,6 +37,7 @@ class CardGame:
    total
    for card in cards:
      total += card.value
+    # return is inside for loop 
     # formatting error - can't concat a string and an integer
      return "You have a total of" + total
 
